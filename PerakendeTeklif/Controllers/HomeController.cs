@@ -53,7 +53,7 @@ namespace PerakendeTeklif.Controllers
                 }
             }
 
-            return View();
+            return View(model);
         }
 
         private int indirimHesapla(int yuzde, double aylikTuketim, double tedasBirimFiyat, string mesken)
